@@ -12,7 +12,7 @@
 			<div class="box"></div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container hidden">
 		<div class="header">
 			<img src="logotransyes.png" class="logo">
 			<div class="navbar">
@@ -28,9 +28,9 @@
 	</div>
 	<script>
 		setTimeout(function() {
-			document.querySelector('.loader-wrapper').style.opacity = '0';
-			document.querySelector('.loader-wrapper').style.pointerEvents = 'none';
-		}, 5000);
+			document.querySelector('.loader-wrapper').classList.add('hidden');
+			document.querySelector('.container').classList.remove('hidden');
+		}, 7000);
 	</script>
 </body>
 </html>
