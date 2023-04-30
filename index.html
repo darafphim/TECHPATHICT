@@ -28,7 +28,10 @@
 	</div>
 	<script>
 		setTimeout(function() {
-			document.querySelector('.loader-wrapper').style.display = 'none';
+			document.querySelector('.loader-wrapper').style.opacity = '0';
+			setTimeout(function() {
+				document.querySelector('.loader-wrapper').style.display = 'none';
+			}, 1000);
 		}, 7000);
 	</script>
 </body>
