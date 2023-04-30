@@ -53,11 +53,6 @@
     padding-left: 3%;
     padding-right: 3%;
     box-sizing: border-box;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.container.hidden {
     opacity: 1;
 }
 
@@ -110,4 +105,3 @@
 
 .path{
 	color: yellow;
-}
