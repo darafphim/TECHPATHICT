@@ -28,8 +28,9 @@
 	</div>
 	<script>
 		setTimeout(function() {
-			document.querySelector('.loader-wrapper').style.display = 'none';
-		}, 7000);
+			document.querySelector('.loader-wrapper').style.opacity = '0';
+			document.querySelector('.loader-wrapper').style.pointerEvents = 'none';
+		}, 5000);
 	</script>
 </body>
 </html>
