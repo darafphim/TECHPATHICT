@@ -28,16 +28,14 @@
 	</div>
 	<div class="transition"></div>
 	<script>
-		window.onload = function() {
+		setTimeout(function() {
+			document.querySelector('.loader-wrapper').style.display = 'none';
+			document.querySelector('.container').classList.remove('hidden');
+			document.querySelector('.transition').style.opacity = 0;
 			setTimeout(function() {
-				document.querySelector('.loader-wrapper').style.display = 'none';
-				document.querySelector('.container').classList.remove('hidden');
-				document.querySelector('.transition').style.opacity = 0;
-				setTimeout(function() {
-					document.querySelector('.transition').style.display = 'none';
-				}, 1000);
-			}, 7000);
-		};
+				document.querySelector('.transition').style.display = 'none';
+			}, 1000);
+		}, 7000);
 	</script>
 </body>
 </html>
