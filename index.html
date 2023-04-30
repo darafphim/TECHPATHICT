@@ -12,7 +12,7 @@
             <div class="box"></div>
         </div>
     </div>
-    <div class="container hidden">
+    <div class="container">
         <div class="header">
             <img src="logotransyes.png" class="logo">
             <div class="navbar">
@@ -27,10 +27,9 @@
         <div class="subtitle">We enlighten your ways</div>
     </div>
     <script>
-        setTimeout(function() {
+        document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('.loader-wrapper').style.display = 'none';
-            document.querySelector('.container').classList.remove('hidden');
-        }, 7000);
+        });
     </script>
 </body>
 </html>
