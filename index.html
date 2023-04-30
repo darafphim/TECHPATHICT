@@ -5,13 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="loader">
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
+	<div class="loader-wrapper">
+		<div class="loader">
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+		</div>
 	</div>
-	</div>
-	<div class="transition"></div>
 	<div class="container">
 		<div class="header">
 			<img src="logotransyes.png" class="logo">
@@ -26,6 +26,10 @@
 		<div class="title">TECH<span class="path">PATH</span></div>
 		<div class="subtitle">We enlighten your ways</div>
 	</div>
-	
+	<script>
+		setTimeout(function() {
+			document.querySelector('.loader-wrapper').style.display = 'none';
+		}, 7000);
+	</script>
 </body>
 </html>
