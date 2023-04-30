@@ -12,7 +12,8 @@
 			<div class="box"></div>
 		</div>
 	</div>
-	<div class="container hidden">
+	<div class="transition"></div>
+	<div class="container">
 		<div class="header">
 			<img src="logotransyes.png" class="logo">
 			<div class="navbar">
@@ -26,18 +27,11 @@
 		<div class="title">TECH<span class="path">PATH</span></div>
 		<div class="subtitle">We enlighten your ways</div>
 	</div>
-	<div class="transition"></div>
 	<script>
-		window.addEventListener('load', function() {
-			setTimeout(function() {
-				document.querySelector('.loader-wrapper').style.display = 'none';
-				document.querySelector('.container').classList.remove('hidden');
-				document.querySelector('.transition').style.opacity = 0;
-				setTimeout(function() {
-					document.querySelector('.transition').style.display = 'none';
-				}, 1000);
-			}, 7000);
-		});
+		setTimeout(function() {
+			document.querySelector('.loader-wrapper').style.display = 'none';
+			document.querySelector('.transition').style.opacity = 0;
+		}, 7000);
 	</script>
 </body>
 </html>
