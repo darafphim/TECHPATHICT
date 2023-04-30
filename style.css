@@ -53,6 +53,10 @@
     padding-left: 3%;
     padding-right: 3%;
     box-sizing: border-box;
+    opacity: 0;
+}
+
+.container.hidden {
     opacity: 1;
 }
 
