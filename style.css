@@ -14,12 +14,6 @@
 	align-items: center;
 	justify-content: center;
 	z-index: 9999;
-	transition: opacity 1s ease-in-out;
-}
-
-.loader-wrapper.fadeOut {
-	opacity: 0;
-	pointer-events: none;
 }
 
 .loader {
@@ -63,7 +57,7 @@
 	transition: opacity 1s ease-in-out;
 }
 
-.container.fadeIn {
+.hidden {
 	opacity: 1;
 }
 
@@ -109,7 +103,9 @@
 	text-align: left;
 	margin-top: -20px;
 	margin-left: 112px;
-	font-size
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
 }
 
 .path{
