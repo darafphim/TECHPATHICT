@@ -3,15 +3,17 @@
 <head>
 	<title>TechPath</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		#about-page {
+			opacity: 0;
+			transition: opacity 1s ease-in-out;
+		}
+		#about-page.visible {
+			opacity: 1;
+		}
+	</style>
 </head>
 <body id="about page">
-	<div class="loader-wrapper">
-		<div class="loader">
-			<div class="box"></div>
-			<div class="box"></div>
-			<div class="box"></div>
-		</div>
-	</div>
 	<div class="container">
 		<div class="header">
 			<img src="logotransyes.png" class="logo">
@@ -34,12 +36,17 @@
 		YESTHISISINTROYESTHISISINTROYES HISISINTROYESTHISISINTROYES THISISINTROYESTHISISINTRO</div>
 	</div>
 	<script>
-		setTimeout(function() {
-			document.querySelector('.loader-wrapper').style.opacity = '0';
+		if (localStorage.getItem("visited")) {
+			document.querySelector('.loader-wrapper').style.display = 'none';
+		} else {
 			setTimeout(function() {
-				document.querySelector('.loader-wrapper').style.display = 'none';
-			}, 1000);
-		}, 800);
+				document.querySelector('.loader-wrapper').style.opacity = '0';
+				setTimeout(function() {
+					document.querySelector('.loader-wrapper').style.display = 'none';
+					localStorage.setItem("visited", "true");
+				}, 1000);
+			}, 100);
+		}
 	</script>
 </body>
 </html>
