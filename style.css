@@ -7,6 +7,15 @@ body {
 	overflow-x: hidden;
 }
 
+body.transition {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+body.visible {
+	opacity: 1;
+}
+
 .loader-wrapper {
 	position: fixed;
 	top: 0;
