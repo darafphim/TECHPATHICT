@@ -277,23 +277,6 @@ p {
 	padding: 10px;
 }
 
-.seperator {
-  text-align: center;
-  margin-top: -800px;
-  margin-bottom: 20px;
-}
-
-.seperator hr {
-  border: none;
-  background-color: transparent;
-  border-top: 7px solid white;
-  margin: auto;
-  width: 50%;
-  height: 5px;
-  margin-top: 50px;
-  display: inline-block;
-}
-
 .titlecourse {
 	text-align: left;
 	font-family: Times New Roman;
@@ -336,7 +319,7 @@ p {
 .imgco-one {
   width: 400px;
   height: 250px;
-  margin-top: 40px;
+  margin-top: -300px;
   margin-right: 0px;
   margin-bottom: 25px;
   margin-left: 100px;
@@ -360,7 +343,7 @@ p {
 .imgco-two {
   width: 400px;
   height: 250px;
-  margin-top: 40px;
+  margin-top: -300px;
   margin-right: 700px;
   margin-bottom: 25px;
   margin-left: 180px;
@@ -384,7 +367,7 @@ p {
 .imgco-three {
   width: 400px;
   height: 250px;
-  margin-top: 43px;
+  margin-top: -300px;
   margin-right: 1000px;
   margin-bottom: 25px;
   margin-left: -500px;
@@ -408,7 +391,7 @@ p {
 .imgco-four {
   width: 400px;
   height: 250px;
-  margin-top: 400px;
+  margin-top: 100px;
   margin-right: 0px;
   margin-bottom: 25px;
   margin-left: -2580px;
