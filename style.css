@@ -135,7 +135,7 @@ body {
 }
 
 .home-bg {
-	background-image: url('pathbackground.jpg') !important;
+	background-image: url('tempbg.jpg') !important;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
