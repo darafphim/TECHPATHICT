@@ -45,6 +45,18 @@
 	}
 }
 
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translate Y(20);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
 .container{
 	transition: opacity 0.1s ease-in-out;
 	width: 100%;
@@ -118,6 +130,15 @@
 	font-size: 25px;
 }
 
+body {
+	background-image: url('roar.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
 .navbar a:not(.active) {
     color: white;
 }
@@ -149,3 +170,4 @@
 .path{
 	color: yellow;
 }
+
