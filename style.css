@@ -61,7 +61,7 @@
 	transition: opacity 0.1s ease-in-out;
 	width: 100%;
 	height: 108vh;
-	background-image: url(pathbackground.jpg);
+	background-image: url();
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -130,14 +130,65 @@
 	font-size: 25px;
 }
 
-body {
-	background-image: url('roar.jpeg');
+.home-bg {
+	background-image: url('pathbackground.jpg') !important;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	transition: none;
+	min-height: 100vh;
 }
 
+.about-bg {
+	background-image: url('roar.jpeg') !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: none;
+	min-height: 100vh;
+}
+
+.courses-bg {
+	background-image: url('cti.jpg') !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: none;
+	min-height: 100vh;
+}
+
+.careers-bg {
+	background-image: url('photoct.jpeg') !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: none;
+	min-height: 100vh;
+}
+
+.application-bg {
+	background-image: url('hde.jpg') !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: none;
+	min-height: 100vh;
+}
+
+.contacts-bg {
+	background-image: url('keyyy.jpg') !important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: none;
+	min-height: 100vh;
+}
 
 .navbar a:not(.active) {
     color: white;
@@ -170,3 +221,5 @@ body {
 .path{
 	color: yellow;
 }
+
+
