@@ -472,7 +472,7 @@ p {
 .imgco-seven {
   width: 400px;
   height: 250px;
-  margin-top: 2000px;
+  margin-top: -2000px;
   margin-right: 0px;
   margin-bottom: 25px;
   margin-left: -2580px;
