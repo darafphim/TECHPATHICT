@@ -536,6 +536,17 @@ p {
   border-radius: 7px;
 }
 
+.careers-title {
+	padding-top: 100px;
+	margin-top: 40px;
+	font-size: 46px;
+	color: white;
+	font-weight: bold;
+	background: black;
+	display: block;
+	padding: 0px;
+	margin-bottom: 0px;
+}
 
 
 
