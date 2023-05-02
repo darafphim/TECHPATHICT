@@ -557,8 +557,8 @@ p {
 	padding-right: 50px;
 	margin-left: 70px;
 	margin-right: 50px;
-	padding-top: -950px;
-	margin-top: 400px;
+	padding-top: -970px;
+	margin-top: 500px;
 }
 
 .careers-text-container {
@@ -569,7 +569,7 @@ p {
 	margin-left: 200px;
 	margin-top: -750px;
 	background: black;
-	width: 84%;
+	width: 87%;
 	padding: 10px;
 }
 
@@ -586,7 +586,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-left: 850px;
+	margin-left: 870px;
 	margin-top: -20px;
 	background: none;
 	padding: 20px;
