@@ -548,6 +548,57 @@ p {
 	margin-bottom: 0px;
 }
 
+.careers-image {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 40%;
+	height: 45%;
+	padding-right: 50px;
+	margin-left: 70px;
+	margin-right: 50px;
+	padding-top: -800px;
+	margin-top: 280px;
+}
+
+.careers-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 200px;
+	margin-top: -690px;
+	background: black;
+	width: 84%;
+	padding: 10px;
+}
+
+.careers-text {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+.unocareers-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 730px;
+	margin-top: -20px;
+	background: none;
+	padding: 20px;
+}
+
+.unocareers-text {
+	font-size: 20px;
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	margin: 0;
+}
 
 
 
