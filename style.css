@@ -557,7 +557,7 @@ p {
 	padding-right: 50px;
 	margin-left: 70px;
 	margin-right: 50px;
-	padding-top: -750px;
+	padding-top: -800px;
 	margin-top: 300px;
 }
 
@@ -567,7 +567,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	margin-left: 200px;
-	margin-top: -690px;
+	margin-top: -750px;
 	background: black;
 	width: 84%;
 	padding: 10px;
@@ -586,7 +586,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-left: 800px;
+	margin-left: 950px;
 	margin-top: -20px;
 	background: none;
 	padding: 20px;
