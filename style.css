@@ -557,8 +557,8 @@ p {
 	padding-right: 50px;
 	margin-left: 120px;
 	margin-right: 60px;
-	padding-top: -60px;
-	margin-top: 360px;
+	padding-top: -1000px;
+	margin-top: 295px;
 }
 
 .careers-text-container {
@@ -566,8 +566,8 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-left: 220px;
-	margin-top: -750px;
+	margin-left: 229px;
+	margin-top: -670px;
 	background: black;
 	width: 87%;
 	padding: 10px;
@@ -586,7 +586,7 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-left: 870px;
+	margin-left: 840px;
 	margin-top: -20px;
 	background: none;
 	padding: 20px;
@@ -600,5 +600,263 @@ p {
 	margin: 0;
 }
 
+.careers1-title {
+	padding-top: 100px;
+	margin-top: 40px;
+	font-size: 46px;
+	color: white;
+	font-weight: bold;
+	background: black;
+	display: block;
+	padding: 0px;
+	margin-bottom: 0px;
+}
 
+.careers1-image {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 40%;
+	height: 45%;
+	padding-right: 50px;
+	margin-left: 120px;
+	margin-right: 60px;
+	padding-top: -1000px;
+	margin-top: 730px;
+}
 
+.careers1-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 218px;
+	margin-top: 45px;
+	background: black;
+	width: 87%;
+	padding: 10px;
+}
+
+.careers1-text {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+.doscareers-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 840px;
+	margin-top: -19px;
+	padding-top: 10px;
+	background: none;
+	padding: 20px;
+}
+
+.doscareers-text {
+	font-size: 20px;
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	margin: 0;
+}
+
+.careers2-title {
+	padding-top: 100px;
+	margin-top: 40px;
+	font-size: 46px;
+	color: white;
+	font-weight: bold;
+	background: black;
+	display: block;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.careers2-image {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 40%;
+	height: 45%;
+	padding-right: 50px;
+	margin-left: 120px;
+	margin-right: 60px;
+	padding-top: -1000px;
+	margin-top: 1155px;
+}
+
+.careers2-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 220px;
+	margin-top: 27px;
+	background: black;
+	width: 87%;
+	padding: 10px;
+}
+
+.careers2-text {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+.trescareers-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 842px;
+	margin-top: -19px;
+	padding-top: 10px;
+	background: none;
+	padding: 20px;
+}
+
+.trescareers-text {
+	font-size: 20px;
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	margin: 0;
+}
+
+.careers3-title {
+	padding-top: 100px;
+	margin-top: 40px;
+	font-size: 46px;
+	color: white;
+	font-weight: bold;
+	background: black;
+	display: block;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.careers3-image {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 40%;
+	height: 45%;
+	padding-right: 50px;
+	margin-left: 120px;
+	margin-right: 60px;
+	padding-top: -1000px;
+	margin-top: 1589px;
+}
+
+.careers3-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 220px;
+	margin-top: 30px;
+	background: black;
+	width: 87%;
+	padding: 10px;
+}
+
+.careers3-text {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+.quatcareers-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 842px;
+	margin-top: -19px;
+	padding-top: 10px;
+	background: none;
+	padding: 20px;
+}
+
+.quatcareers-text {
+	font-size: 20px;
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	margin: 0;
+}
+
+.careers4-title {
+	padding-top: 100px;
+	margin-top: 40px;
+	font-size: 46px;
+	color: white;
+	font-weight: bold;
+	background: black;
+	display: block;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.careers4-image {
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 40%;
+	height: 45%;
+	padding-right: 50px;
+	margin-left: 120px;
+	margin-right: 60px;
+	padding-top: -1000px;
+	margin-top: 2015px;
+}
+
+.careers4-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 220px;
+	margin-top: 30px;
+	background: black;
+	width: 87%;
+	padding: 10px;
+}
+
+.careers4-text {
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+.sincocareers-text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 845px;
+	margin-top: -23px;
+	padding-top: 10px;
+	padding-left: 50px;
+	background: none;
+	padding: 20px;
+}
+
+.sincocareers-text {
+	font-size: 20px;
+	font-weight: bold;
+	color: yellow;
+	text-align: center;
+	margin: 0;
+}
