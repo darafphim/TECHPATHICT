@@ -567,7 +567,6 @@ p {
 	justify-content: center;
 	margin-left: 232px;
 	margin-top: -720px;
-	background: black;
 	width: 87%;
 	padding: 10px;
 }
@@ -586,7 +585,7 @@ p {
 	align-items: center;
 	justify-content: center;
 	margin-left: 840px;
-	margin-top: -40px;
+	margin-top: -50px;
 	background: none;
 	padding: 20px;
 }
